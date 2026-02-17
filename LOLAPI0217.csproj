@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="LOLAPIWPF\**\*.cs" />
+    <EmbeddedResource Remove="LOLAPIWPF\**\*" />
+    <None Remove="LOLAPIWPF\**\*" />
+  </ItemGroup>
+
 </Project>
